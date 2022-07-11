@@ -249,7 +249,7 @@ log_config = dict(
 custom_hooks = [dict(type='NumClassCheckHook')]
 dist_params = dict(backend='nccl')
 log_level = 'INFO'
-load_from = 'G:\mmd\mmdetection-master\mmdetection-master\faster_rcnn_s50_fpn_syncbn-backbone+head_mstrain-range_1x_coco_20200926_125502-20289c16.pth'
+load_from = None
 resume_from = None
 workflow = [('train', 1)]
 opencv_num_threads = 0
